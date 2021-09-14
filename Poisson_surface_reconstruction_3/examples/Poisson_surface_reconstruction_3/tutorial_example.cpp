@@ -53,7 +53,7 @@ int main(int argc, char*argv[])
 
   stream >> points;
 
-  std::cout << "Read " << points.size () << " point(s)" << std::endl;
+  std::cout << "Read " << points.size() << " point(s)" << std::endl;
   if (points.empty())
     return EXIT_FAILURE;
 
